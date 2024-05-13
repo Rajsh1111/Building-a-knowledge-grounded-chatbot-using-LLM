@@ -23,7 +23,7 @@ For example, in the context of an e-commerce chatbot using RAG, knowledge ground
 
 **Folders in repository:**
 
-Folder name: 'full' contains fully trained model files: pytorch_model.bin and optimizer.pt
+Folder name: 'full' contains fully trained model files except files : pytorch_model.bin and optimizer.pt could not be attached as they have huge size and cannot be compressed to 25MB size as required by GitHub.
 Folder name: 'peft' contains model trained by using : PEFT ( Parameter Efficient Fine Tuning) , files: adapter_model.bin and optimizer.pt
 File: llm_labs.ipynb explains all the concepts mentioned above in detail with outputs
 Folder name: 'kb' contains data on apparels and paper products in form of text files: apparel_products and paper_products that we have used for uploading in stream-lit application for the chatbot.
